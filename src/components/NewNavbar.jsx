@@ -5,6 +5,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   return (
+
+  
+    
     <nav className="container pt-6">
       <div className="flex justify-between items-center">
         <Image src="/logo1.png" width={50} height={50} alt="logo" />

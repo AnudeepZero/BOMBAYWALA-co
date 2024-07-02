@@ -7,7 +7,7 @@ import Survey from "../components/Survey";
 
 export default function Home() {
   return (
-    <main>
+    <main >
       <Hero />
       <Featured />
       <Services />

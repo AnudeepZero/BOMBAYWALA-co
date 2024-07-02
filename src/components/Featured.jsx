@@ -7,7 +7,7 @@ const Featured = () => {
     <div className="container pt-40">
       <h2 className="text-6xl font-bold">Our</h2>
       <h2 className="text-6xl font-bold pt-2">
-        Featured <span className="text-accent">Food</span>
+        Featured <span className="text-accent">Categories</span>
       </h2>
 
       <p className="max-w-[550px] pt-10 text-gray-700">
@@ -30,7 +30,7 @@ const Featured = () => {
 
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Shrimp Salad</h2>
+            <h2 className="font-medium text-xl">Chaats</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos, nesciunt distinctio.
@@ -48,7 +48,7 @@ const Featured = () => {
 
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Baked apples</h2>
+            <h2 className="font-medium text-xl">Punjab-Di-Hatti</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos, nesciunt distinctio.
@@ -66,7 +66,7 @@ const Featured = () => {
 
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Cherries chicken</h2>
+            <h2 className="font-medium text-xl">Muh Meetha Kar Lo</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos, nesciunt distinctio.

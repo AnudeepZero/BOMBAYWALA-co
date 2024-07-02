@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Navbar from "../components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,9 +14,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+
+      <main className=" px-10">
+        <Navbar />
+        <div className='gradient_background mt-14 md:mt-16'>
         {children}
+        </div>
         <Footer />
+
+
+      </main>
+
+      
       </body>
     </html>
-  );
+  )
 }
+
+
+
