@@ -23,6 +23,9 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Survey.js", "src/components/ServicesCard.js", "src/components/Services.js", "src/components/Navbar.js", "src/components/MenuCard.js", "src/components/Menu.js", "src/components/Hero.js", "src/components/Footer.js", "src/components/Featured.js", "src/components/Dash.js"],
   "exclude": ["node_modules"]
 }
+
+
+    "typescript": "5.1.6"

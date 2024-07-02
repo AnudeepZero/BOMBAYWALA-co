@@ -1,13 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-interface propsType {
-  img: string;
-  title: string;
-  desc: string;
-}
-
-const ServicesCard: React.FC<propsType> = ({ img, title, desc }) => {
+const ServicesCard = ({ img, title, desc }) => {
   return (
     <div>
       <div className="space-y-3 text-center">
@@ -26,7 +20,6 @@ const ServicesCard: React.FC<propsType> = ({ img, title, desc }) => {
             <div className="bg-accent w-[7px] h-[7px] rounded-full" />
           </div>
         </div>
-
         <p className="text-[14px] text-gray-700">{desc}</p>
       </div>
     </div>
