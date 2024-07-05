@@ -5,7 +5,7 @@ import ServicesCard from "./ServicesCard";
 const servicesData = [
   {
     img: "/services__1.png",
-    title: "Professonal Kitchen",
+    title: "Dine IN",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odio.",
   },
   {
@@ -15,12 +15,12 @@ const servicesData = [
   },
   {
     img: "/services__3.png",
-    title: "Wine List",
+    title: "Take Out",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odio.",
   },
   {
     img: "/services__4.png",
-    title: "Free Wifi",
+    title: "Events",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odio.",
   },
 ];

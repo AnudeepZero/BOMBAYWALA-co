@@ -22,7 +22,7 @@ const Featured = () => {
         <div className="w-fit mx-auto self-end">
           <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__1.png"
+            src="/IMG_2017.jpg"
             width={300}
             height={600}
             alt="grid image"
@@ -58,7 +58,7 @@ const Featured = () => {
         <div className="w-fit mx-auto self-end">
           <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__3.png"
+            src="/bombaywalaandco-26.jpg"
             width={300}
             height={600}
             alt="grid image"

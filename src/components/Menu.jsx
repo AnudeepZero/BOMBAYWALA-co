@@ -59,7 +59,7 @@ const Menu = () => {
     <div className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
-          Our <span className="text-accent">Menu</span>
+          Our <span className="text-accent">Specials</span>
         </h2>
         <p className="text-gray-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem
@@ -71,7 +71,7 @@ const Menu = () => {
         </div>
       </div>
 
-      <ul className="mt-10 hidden sm:flex gap-6 md:gap-10 lg:gap-20 w-fit mx-auto">
+      {/* <ul className="mt-10 hidden sm:flex gap-6 md:gap-10 lg:gap-20 w-fit mx-auto">
         <li className="bg-accent text-white p-1">Appetizers</li>
         <li>Breakfast</li>
         <li>Salads</li>
@@ -79,7 +79,7 @@ const Menu = () => {
         <li>Soup</li>
         <li>Desert</li>
         <li>Drinks</li>
-      </ul>
+      </ul> */}
 
       <div className="grid lg:grid-cols-[35%,1fr] gap-10 pt-10">
         <div className="w-fit mx-auto">
